@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza order forms</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .fa {
+                padding: 10px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                background: white;
+                color: teal;
+                }
+            
+            .fa:hover {
+                opacity: 0.7;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Best pizza ever</h1>
+        <h3>Get some pizza here!</h3>
+        
+        <main>
+            <section id="contact-form">        
+                <h2>Place Order</h2>
+                <form method="GET" action="place-order.php">
+                    <h4>Delivery</h4>
+                    <h5>Method</h5>
+                    <input name="deliverymethod" type="radio" value="delivery" /> Delivery <br />
+                    <input name="deliverymethod" type="radio" value="pickup"/> Pickup <br />
+                    
+                    <h5>Adress</h5>
+                    <input name="name" placeholder="Name" class="lg-input" /><br />
+                    <input name="adress" placeholder="Adress Line" class="lg-input" /><br />
+                    <input name="zipcode" placeholder="Zip Code" class="sm-input" />
+                    <input name="city" placeholder="City" class="sm-input" />
+                    
+                    <h4>Pizza</h4>
+                    <h5>Size</h5>
+                    <select name="size">
+                        <option value="small">Small - $10.00</option>
+                        <option value="medium">Medium - $12.99</option>
+                        <option value="large">Large - $14.99</option>
+                        <option value="family">Family - $18.50</option>
+                    </select>
+
+                    <h4>Ingredients</h4>
+                    <input name="ingredients" value="pepperoni" type="checkbox" /> Pepperoni<br />
+                    <input name="ingredients" value="salami" type="checkbox" /> Salami<br />
+                    <input name="ingredients" value="sd-tomato" type="checkbox" /> Sundried tomato<br />
+                    <input name="ingredients" value="onion" type="checkbox" /> Onion<br />
+                    <input name="ingredients" value="goatscheese" type="checkbox" /> Goatscheese<br />
+                    <input name="ingredients" value="spinach" type="checkbox" /> Spinach<br />
+                    <br />
+                    <br />
+                    <button type="submit">Place Order</button>
+                </form>
+            </section>
+
+            <br />
+            <br />
+            <footer>
+                <center>
+                    <a href="https://github.com/signeklinting" class="fa fa-github"></a>
+                    <a href="https://www.instagram.com/signeklinting/" class="fa fa-instagram"></a>
+                    <br />
+                    Copyright 2021 &copy Signe Klinting <br />
+                    Udemy - The Complete Front-End Web Development Course
+                </center>
+            </footer>
+        </main>
+    </body>
+</html>

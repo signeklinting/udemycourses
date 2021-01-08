@@ -1,0 +1,106 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Hachi+Maru+Pop&display=swap');
+
+body {
+    background: #ffffff; 
+    font-family: Tahoma;
+    color: #000000;
+}
+
+main {
+    margin: 30px;
+}
+
+header {
+    background: #ffffff; 
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    color: #02151a;
+}
+
+header img {
+    height: 90px;
+    display: inline;
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+#main-header {
+    border: 3px solid #02151a;
+    border-left: none;
+    border-right: none;
+    margin: 0px;
+    width: 100%;
+}
+ 
+#personal-life {
+    border-bottom: 2px solid teal;
+    max-width: 100%;
+}
+
+#professional-life {
+    border-bottom: 2px solid teal;
+    max-width: 100%;
+}
+
+body > header > h1 {
+    color: #0c3842;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    line-height: 10px;
+}
+
+body > main > section > h1 {
+    color: #0c3842;
+}
+
+body > main > section > h2 {
+    color: #0c3842;
+}
+
+body > main > section > h3 {
+    color: #15505e;
+}
+
+body > main > section > h4 {
+    color: #286c7d; 
+}
+
+body > main > section > h5 {
+    color: #427b8a;
+}
+
+.intext-link {
+    font-style: initial;
+    color: #000000;
+    color: #000000;
+    text-decoration: none;
+}
+
+.intext-link:hover {
+    text-decoration: underline;
+}
+
+.intext-link:visited {
+    color: #000000;
+}
+
+body > main > footer {
+    font-family: "Amatic SC", cursive;
+    color: #02151a;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    color: teal;
+}
+    
+.fa:hover {
+    opacity: 0.7;
+}
